@@ -102,7 +102,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
-
+doc_events = {
+        "*":{
+            "on_submit": "multi_branch.controllers.base_controller.validate_controller"
+        }
+}
 # Scheduled Tasks
 # ---------------
 
